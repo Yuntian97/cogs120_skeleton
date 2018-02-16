@@ -3,10 +3,9 @@
 <html>
 <meta charset="utf-8">
 <meta name="viewport" 
-      content="user-scalable=no,width=device-width" />
+      content="user-scalable=no,width=device-width" />     
 
 <body>
-    <div class="container">
     <div class="container">
         <p class="text-center">
 			<em>Step 2 of 3</em>
@@ -18,17 +17,28 @@
         </div>
         
         <div class="title_area">
-            <h2>Step 2, Select Location</h2>
+            <h2>Select Location</h2>
         </div>
         
-        <div class="pageEnd">
-            <span style="display:block; height: 14px;"></span>
-			<h4><a href="../index.html">Cancel</a><span style="display:inline-block; width: 20px;"></span><a href="creat3.html">Next</a></h4>
+        <div id="map"></div>
+        
+        <div class ="allwehave">
+            <div class="backback" style="float:left">
+                <h4><a href="creat1.html">Back</a></h4>
+            </div>
+            
+            <div class="pageEnd" style="float:right">
+                <span style="display:inline; height: 14px;"></span>
+                <h4><a href="../index.html">Cancel</a><span style="display:inline-block; width: 20px;"></span><a href="creat3.html">Next</a></h4>
+            </div>
         </div>
         
+        <script src="../js/creat2Js.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEPQ5go_3a2hSchVOwK3PHFk3I7P1DcMI&callback=initMap"async defer></script>
         <link href="../css/bootstrap.css" rel="stylesheet">
         <link href="../css/bootstrap-theme.css" rel="stylesheet">
-        <link href="../css/creat1Css.css" rel="stylesheet">
+        <link href="../css/creat2Css.css" rel="stylesheet">
+        
     </div>
 </body>
 </html>

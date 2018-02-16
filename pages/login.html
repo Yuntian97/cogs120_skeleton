@@ -7,20 +7,41 @@
 
 <body>
     <div class="container">
-    <div class="container">
-        
-        <div class="title_area">
-            <h2>User Log In</h2>
+        <div class="qbutton">
+            <button class="btn" type="button"><font size="+1"><a href="pages/help.html">?</a></font></button>
         </div>
         
-        <div class="pageEnd">
-            <span style="display:block; height: 14px;"></span>
-			<h4><a href="../index.html">Log in</a>
+        <div class="logo_area"><img src="../img/logo.jpg" class="img-responsive img-rounded"></div>
+        
+        <div class="title_area2">
+            <h2><p>User Login</p></h2>
+        </div>
+        
+        <form id="addFriendForm" role="form" method="get" action="/add">
+            <div class="form-group">
+                  <label for="name"><h4>E-mail:</h4></label>
+                  <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+            </div>
+            <div class="form-group">
+                  <label for="description"><h4>Password:</h4></label>
+                  <input type="text" class="form-control" id="description" placeholder="Description" name="description">
+            </div>
+        </form>
+        
+        <div class ="allwehave">
+            <div class="backback" style="float:left">
+                <h4><a href="../index.html">New User</a></h4>
+            </div>
+            
+            <div class="pageEnd" style="float:right">
+                <span style="display:inline; height: 14px;"></span>
+                <h4><a href="../index.html">Login</a></h4>
+            </div>
         </div>
         
         <link href="../css/bootstrap.css" rel="stylesheet">
         <link href="../css/bootstrap-theme.css" rel="stylesheet">
-        <link href="../css/creat1Css.css" rel="stylesheet">
+        <link href="../css/myCSS.css" rel="stylesheet">
     </div>
 </body>
 </html>

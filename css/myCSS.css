@@ -14,15 +14,17 @@ html,
     background: #f7f7f7 url(https://css-tricks.com/examples/RoundButtons/images/bg.png) repeat center top;
 }
 
+.title_area2 p{
+    text-align: center;
+}
+
 .logo_area{
-    padding-top: 40px;
+    padding-top: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width:240px;
     height:160px;
-    border:2px solid #000;
-    background: #FFFFFF;
 }
 
 .logo_area p{
@@ -39,6 +41,17 @@ html,
     text-align: center;
 }
 
+.pageEnd {
+    display: inline;
+}
+
+.allwehave{
+    display: inline;
+}
+
+.Newtop{
+    display : inline;
+}
 
 h1, h2, h3, h4, h5 {
 	color: #8382BF;
